@@ -5,13 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Play- Rock Paper Scissors!</title>
   <style>
+    h1{
+      text-align: center;
+    }
     body{
       margin: 0;
       height: 100vh;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
+      padding: auto;
+
     }
+
     button{
       
      
@@ -30,9 +37,21 @@
       padding: 20px;
       
     }
+    .title{
+      
+
+      font-weight: bold;
+      font-size: 3rem;
+      text-align: center;
+      background-image: linear-gradient(360deg, #0cc4f7 0%, #300a44 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
   </style>
 </head>
 <body>
+  <div class="title">Let's Play ROCK PAPER SCIZZ !</div>
   <div class="choice">
   <button class="rock" onclick="
       userChoice = 'rock';
@@ -50,7 +69,7 @@
       game();
   ">Scissors</button>
   <h1>Who will WIN??</h1>
-  <h2>hehe</h2>
+  <h2>letsee...</h2>
 </div>
 
 <script>
